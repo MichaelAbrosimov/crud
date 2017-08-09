@@ -8,5 +8,5 @@ $pdo_statement->execute();
 
 $result = $pdo_statement->fetchAll();
 foreach ($result as $element) {
-    echo $element["name"].$element["created_at"]."<br>";
+    echo $element["name"]." ".$element["created_at"]."<br>";
 }
