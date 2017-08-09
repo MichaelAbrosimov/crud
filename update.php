@@ -19,6 +19,6 @@ $datetime = date("Y-m-d H:i:s", time());
     <input type="text" name="name" required>
     <input type="text" name="description" required>
     <input type="text" name="created_at" required value="<?php echo $datetime; ?>">
-    <input type="hidden" name="id" value="<?php echo $_GET['id'] ?>" >
+    <input type="hidden" name="id" value="<?php echo $id ?>" >
     <input type="submit">
 </form>
